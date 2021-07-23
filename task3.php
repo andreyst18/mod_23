@@ -25,5 +25,5 @@
         if (mb_substr($person['surname'], -1) === 'в') {
             $result += 1;
         }
-        return $result;
+        return $result <=> 0;
     }

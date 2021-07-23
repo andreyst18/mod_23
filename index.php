@@ -6,4 +6,4 @@
     //echo getFullnameFromParts('Шматко', 'Антонина', 'Сергеевна');
     //var_dump(getPartsFromFullname('Иванов Иван Иванович'));
     //echo getShortName('Иванов Иван Иванович');
-    //echo getGenderFromName('Степанова Натальа Степановна');
+    echo getGenderFromName('Степанова Наталья Степановна');
