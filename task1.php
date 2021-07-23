@@ -2,7 +2,7 @@
     //Разбиение и объединение ФИО
 
     function getFullnameFromParts($surname, $name, $patronomyc) {
-        return $name . ' ' . $surname . ' ' . $patronomyc;        
+        return $surname . ' ' . $name . ' ' . $patronomyc;        
     }
 
     function getPartsFromFullname($arg) {
